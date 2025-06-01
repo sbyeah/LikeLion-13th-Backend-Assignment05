@@ -1,0 +1,18 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/likelionjwt
+    username: root
+    password: SAVE!GOOD9=1
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+jwt: # openssl rand -base64 64
+  secret: NQPGFQyKCjAty196U9H4I0HZITRpj/78Br5er8cnNJNctvTlMaCADQ4Ez2asnd+aXGShwKwqByKzeVcyJFp/KA==
+
+
+token:
+  expire:
+    time: 1800000

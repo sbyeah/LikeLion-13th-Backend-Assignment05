@@ -1,13 +1,11 @@
-package com.likelion.tag.application;
+package com.likelion.likelionjwt.tag.domain;
 
 import com.likelion.likelionjwt.common.exception.BusinessException;
 import com.likelion.likelionjwt.common.error.ErrorCode;
-import com.likelion.tag.domain.Tag;
-import com.likelion.tag.domain.TagRepository;
-import com.likelion.tag.dto.request.TagSaveRequestDto;
-import com.likelion.tag.dto.request.TagUpdateRequest;
-import com.likelion.tag.dto.response.TagInfoResponseDto;
-import com.likelion.tag.dto.response.TagListResponseDto;
+import com.likelion.likelionjwt.tag.api.dto.request.TagSaveRequestDto;
+import com.likelion.likelionjwt.tag.api.dto.request.TagUpdateRequestDto;
+import com.likelion.likelionjwt.tag.api.dto.response.TagInfoResponseDto;
+import com.likelion.likelionjwt.tag.api.dto.response.TagListResponseDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -48,7 +46,7 @@ public class TagService {
     }
 
     // 태그 수정
-    public TagInfoResponseDto update(Long id, TagUpdateRequest request) {
+    public TagInfoResponseDto update(Long id, TagUpdateRequestDto request) {
         Tag tag = tagRepository.findById(id)
                 .orElseThrow(() -> new BusinessException(ErrorCode.TAG_NOT_FOUND_EXCEPTION, "ID = " + id));
         tag.updateName(request.getName());

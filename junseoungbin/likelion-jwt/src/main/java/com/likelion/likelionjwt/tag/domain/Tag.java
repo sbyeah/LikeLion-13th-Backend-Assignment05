@@ -1,6 +1,6 @@
-package com.likelion.tag.domain;
+package com.likelion.likelionjwt.tag.domain;
 
-import com.likelion.posttag.domain.PostTag;
+import com.likelion.likelionjwt.posttag.domain.PostTag;
 import jakarta.persistence.*;
 import lombok.*;
 

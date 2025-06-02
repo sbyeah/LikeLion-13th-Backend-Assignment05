@@ -2,8 +2,8 @@ package com.likelion.likelionjwt.post.domain;
 
 import com.likelion.likelionjwt.member.domain.Member;
 import com.likelion.likelionjwt.post.api.dto.request.PostUpdateRequestDto;
-import com.likelion.posttag.domain.PostTag;
-import com.likelion.tag.domain.Tag;
+import com.likelion.likelionjwt.posttag.domain.PostTag;
+import com.likelion.likelionjwt.tag.domain.Tag;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Builder;
@@ -49,14 +49,12 @@ public class Post {
         this.content = postUpdateRequestDto.content();
     }
 
-    // 연관된 Tag 목록 가져오기 (읽기용)
     public List<Tag> getTags() {
         return postTags.stream()
                 .map(PostTag::getTag)
                 .collect(Collectors.toList());
     }
 
-    // Tag 추가 (연관관계 편의 메서드)
     public void addTag(Tag tag) {
         PostTag postTag = PostTag.builder()
                 .post(this)
@@ -66,7 +64,6 @@ public class Post {
         tag.getPostTags().add(postTag);
     }
 
-    // 기존 태그 모두 제거
     public void clearTags() {
         for (PostTag postTag : postTags) {
             postTag.getTag().getPostTags().remove(postTag);

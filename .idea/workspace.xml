@@ -6,7 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="4cb1569e-3c0f-49c6-9b3f-90a23c503e4b" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/common/error/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/common/error/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/post/application/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/post/application/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/post/domain/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/post/domain/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/posttag/domain/PostTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/posttag/domain/PostTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/tag/api/TagController.java" beforeDir="false" afterPath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/tag/api/TagController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/tag/api/dto/request/TagSaveRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/tag/api/dto/request/TagSaveRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/tag/api/dto/request/TagUpdateRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/tag/api/dto/request/TagUpdateRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/tag/api/dto/response/TagInfoResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/tag/api/dto/response/TagInfoResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/tag/api/dto/response/TagListResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/tag/api/dto/response/TagListResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/tag/domain/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/tag/domain/Tag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/tag/domain/TagRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/tag/domain/TagRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/tag/domain/TagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/tag/domain/TagService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +24,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/junseoungbin/likelion-jwt">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/likelion-jwt">
       <ProjectState />
     </projectState>
@@ -22,6 +35,9 @@
     <system id="GRADLE">
       <state>
         <task path="$PROJECT_DIR$/likelion-jwt">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/junseoungbin/likelion-jwt">
           <activation />
         </task>
         <projects_view>
@@ -35,6 +51,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="likelion-jwt" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="likelion-jwt" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -68,7 +90,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.likelion-jwt [build] (1).executor": "Run",
     "Gradle.likelion-jwt [build].executor": "Run",
+    "Gradle.likelion-jwt [clean].executor": "Run",
     "Gradle.likelion-jwt 빌드.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -80,7 +104,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kskb2/Desktop/05프로젝트/LikeLion-13th-Backend-Assignment05/junseoungbin/likelion-jwt/src/main/java/com/likelion/tag",
+    "last_opened_file_path": "C:/Users/kskb2/Desktop/05project/LikeLion-13th-Backend-Assignment05",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,8 +113,13 @@
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "advanced.settings",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -100,7 +129,29 @@
       <recent name="C:\Users\kskb2\Desktop\likelion-jwt" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.likelion-jwt [build]">
+  <component name="RunManager" selected="Spring Boot.LikelionJwtApplication">
+    <configuration name="likelion-jwt [build] (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/junseoungbin/likelion-jwt" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="likelion-jwt [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -113,6 +164,28 @@
         <option name="taskNames">
           <list>
             <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="likelion-jwt [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/junseoungbin/likelion-jwt" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -139,6 +212,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.likelion-jwt [build] (1)" />
+        <item itemvalue="Gradle.likelion-jwt [clean]" />
         <item itemvalue="Gradle.likelion-jwt [build]" />
       </list>
     </recent_temporary>
@@ -169,7 +244,9 @@
       <workItem from="1748656883858" duration="36000" />
       <workItem from="1748741348181" duration="2944000" />
       <workItem from="1748837952401" duration="2757000" />
-      <workItem from="1748855698529" duration="1594000" />
+      <workItem from="1748855698529" duration="2190000" />
+      <workItem from="1748860717480" duration="1676000" />
+      <workItem from="1748862602934" duration="8067000" />
     </task>
     <servers />
   </component>

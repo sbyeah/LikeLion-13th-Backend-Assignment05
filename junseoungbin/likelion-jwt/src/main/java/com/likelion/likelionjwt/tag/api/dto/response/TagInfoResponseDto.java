@@ -1,6 +1,6 @@
-package com.likelion.tag.dto.response;
+package com.likelion.likelionjwt.tag.api.dto.response;
 
-import com.likelion.tag.domain.Tag;
+import com.likelion.likelionjwt.tag.domain.Tag;
 import lombok.Builder;
 import lombok.Getter;
 

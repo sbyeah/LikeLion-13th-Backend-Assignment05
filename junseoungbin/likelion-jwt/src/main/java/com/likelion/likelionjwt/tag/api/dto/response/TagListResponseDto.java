@@ -1,4 +1,4 @@
-package com.likelion.tag.dto.response;
+package com.likelion.likelionjwt.tag.api.dto.response;
 
 import lombok.Builder;
 import lombok.Getter;

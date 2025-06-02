@@ -1,4 +1,4 @@
-package com.likelion.tag.domain;
+package com.likelion.likelionjwt.tag.domain;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

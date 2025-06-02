@@ -1,10 +1,10 @@
-package com.likelion.tag.api;
+package com.likelion.likelionjwt.tag.api;
 
-import com.likelion.tag.application.TagService;
-import com.likelion.tag.dto.request.TagSaveRequestDto;
-import com.likelion.tag.dto.request.TagUpdateRequest;
-import com.likelion.tag.dto.response.TagInfoResponseDto;
-import com.likelion.tag.dto.response.TagListResponseDto;
+import com.likelion.likelionjwt.tag.domain.TagService;
+import com.likelion.likelionjwt.tag.api.dto.request.TagSaveRequestDto;
+import com.likelion.likelionjwt.tag.api.dto.request.TagUpdateRequestDto;
+import com.likelion.likelionjwt.tag.api.dto.response.TagInfoResponseDto;
+import com.likelion.likelionjwt.tag.api.dto.response.TagListResponseDto;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -42,7 +42,7 @@ public class TagController {
     @PutMapping("/{id}")
     public ResponseEntity<TagInfoResponseDto> updateTag(
             @PathVariable Long id,
-            @Valid @RequestBody TagUpdateRequest request) {
+            @Valid @RequestBody TagUpdateRequestDto request) {
         TagInfoResponseDto response = tagService.update(id, request);
         return ResponseEntity.ok(response);
     }

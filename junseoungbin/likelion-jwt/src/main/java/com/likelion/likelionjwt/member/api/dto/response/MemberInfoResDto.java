@@ -1,4 +1,4 @@
-package com.likelion.likelionjwt.member.api.dto.response;
+    package com.likelion.likelionjwt.member.api.dto.response;
 
 import com.likelion.likelionjwt.member.domain.Member;
 import lombok.Builder;

@@ -8,7 +8,6 @@ import com.likelion.likelionjwt.post.api.dto.response.PostListResponseDto;
 import com.likelion.likelionjwt.post.application.PostService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import org.springframework.security.access.annotation.Secured;
 import org.springframework.web.bind.annotation.*;
 
 import java.security.Principal;

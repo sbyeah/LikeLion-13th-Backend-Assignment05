@@ -14,6 +14,7 @@ public enum ErrorCode {
      */
     MEMBER_NOT_FOUND_EXCEPTION(HttpStatus.NOT_FOUND, "해당 사용자가 없습니다. memberId = ", "NOT_FOUND_404"),
     POST_NOT_FOUND_EXCEPTION(HttpStatus.NOT_FOUND, "해당 게시글이 없습니다. postId = ", "NOT_FOUND_404"),
+    TAG_NOT_FOUND_EXCEPTION(HttpStatus.NOT_FOUND, "해당 태그가 없습니다. tagId = ", "NOT_FOUND_404"),
 
     /**
      * 500 INTERNAL SERVER ERROR

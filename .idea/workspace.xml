@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cb1569e-3c0f-49c6-9b3f-90a23c503e4b" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/member/api/dto/response/MemberInfoResDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/member/api/dto/response/MemberInfoResDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/post/api/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/post/api/PostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/post/api/dto/request/PostSaveRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/post/api/dto/request/PostSaveRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/post/api/dto/request/PostUpdateRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/post/api/dto/request/PostUpdateRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/post/api/dto/response/PostInfoResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/post/api/dto/response/PostInfoResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/post/application/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/post/application/PostService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/post/domain/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/post/domain/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/tag/domain/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/tag/domain/Tag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/common/error/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/junseoungbin/likelion-jwt/src/main/java/com/likelion/likelionjwt/common/error/ErrorCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +80,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kskb2/Desktop/05프로젝트/LikeLion-13th-Backend-Assignment05/junseoungbin/likelion-jwt/src/main/java/com/likelion/tag/domain",
+    "last_opened_file_path": "C:/Users/kskb2/Desktop/05프로젝트/LikeLion-13th-Backend-Assignment05/junseoungbin/likelion-jwt/src/main/java/com/likelion/tag",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -103,6 +95,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kskb2\Desktop\05프로젝트\LikeLion-13th-Backend-Assignment05\junseoungbin\likelion-jwt\src\main\java\com\likelion\tag" />
       <recent name="C:\Users\kskb2\Desktop\05프로젝트\LikeLion-13th-Backend-Assignment05\junseoungbin\likelion-jwt\src\main\java\com\likelion\tag\domain" />
       <recent name="C:\Users\kskb2\Desktop\likelion-jwt" />
     </key>
@@ -175,7 +168,8 @@
       <workItem from="1748656420967" duration="194000" />
       <workItem from="1748656883858" duration="36000" />
       <workItem from="1748741348181" duration="2944000" />
-      <workItem from="1748837952401" duration="2046000" />
+      <workItem from="1748837952401" duration="2757000" />
+      <workItem from="1748855698529" duration="1594000" />
     </task>
     <servers />
   </component>
